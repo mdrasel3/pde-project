@@ -24,7 +24,7 @@ Make sure all modules are in the correct directories:
    - **Windows:**
      ```bat
      python -m venv venv
-     venv\Scripts ctivate
+     venv\Scripts activate
      ```
    - **Linux/macOS:**
      ```bash
