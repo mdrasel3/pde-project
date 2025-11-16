@@ -5,6 +5,10 @@ This program provides a user interface to run a simulation of the **HPP model** 
 ## Prerequisites
 
 - **Python 3.x** is required.
+- Install the required Python packages by running:
+  ```bash
+   pip install -r requirements.txt
+   ```
 - The following Python packages and modules must be available:
   - `grid.py` (containing `HPPGrid` class)
   - `animation.py` (containing `HPPVisualizer` class)
