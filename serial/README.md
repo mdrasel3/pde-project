@@ -20,21 +20,17 @@ Make sure all modules are in the correct directories:
 ## Installation
 
 1. Place `main.py`, `grid.py`, and `animation.py` in the same root project directory.
-2. (Optional) Set up a Python virtual environment:
-   - Create the virtual environment:
-   ```bash
-   python3 -m venv venv
-   ```
-   - Activate:
-     - Windows:
-       ```
-       venv\Scripts\activate
-       ```
-     - Linux/macOS:
-       ```bash
-       source venv/bin/activate
-       ```
-
+2. (Optional) Create and activate a Python virtual environment:
+   - **Windows:**
+     ```bat
+     python -m venv venv
+     venv\Scripts ctivate
+     ```
+   - **Linux/macOS:**
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
 ## Running the Simulation
 
 You can start the simulation by running:
