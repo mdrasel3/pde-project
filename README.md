@@ -57,13 +57,3 @@ has to
 grid.
 - Receive a row from the bottom neighbor and write it to row $Nl + 1$ of
 your local grid.
-
-### Hints
-- Use C/C++ or python and MPI. Start with a first version without parallelization.
-- To test your code, look at particularly simple initial conditions, e.g.
-
-  – One particle somewhere, everything else empty
-
-  – Two head-on moving particles
-- Add functionality to export configurations and plot them with e.g.
-Matlab.
